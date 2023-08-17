@@ -1,0 +1,245 @@
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Assessment Julius Ivan Trafanco</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="mobile-filter">
+            <div class="filters">
+                <div class="search">
+                    <input type="text" name="mini-search" class="mini-search" />
+                    <button type="submit">search</button>
+                </div>
+
+                <div class="filter">
+                    <select name="country" id="country">
+                        <option value="USA">United State of America</option>
+                        <option value="USA">United Kingdom</option>
+                        <option value="USA">United Arab Emirates</option>
+                        <option value="USA">Asia</option>
+                        <option value="USA">Africa</option>
+                        <option value="USA">United State of America</option>
+                        <option value="USA">United State of America</option>
+                    </select>
+
+                    <div class="filter-icon">
+                        <i class="fa-solid fa-filter"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-buttons">
+                <div class="list-view button">List View</div>
+                <div class="map-view button">Map View</div>
+            </div>
+        </div>
+        <div class="map-container">
+            <div class="side-bar">
+                <div class="filters">
+                    <div class="search">
+                        <input type="text" name="mini-search" class="mini-search" />
+                        <button type="submit">search</button>
+                    </div>
+
+                    <div class="filter">
+                        <select name="country" id="country">
+                            <option value="USA">United State of America</option>
+                            <option value="USA">United Kingdom</option>
+                            <option value="USA">United Arab Emirates</option>
+                            <option value="USA">Asia</option>
+                            <option value="USA">Africa</option>
+                            <option value="USA">United State of America</option>
+                            <option value="USA">United State of America</option>
+                        </select>
+
+                        <div class="filter-icon">
+                            <i class="fa-solid fa-filter"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="toggle-filters">
+                    <div class="filter-title">Filters</div>
+                    <ul>
+                        <li class="retail"><a href="#">Retail</a></li>
+                        <li class="outlet"><a href="#">Outlet</a></li>
+                        <li class="factory"><a href="#">Factory</a></li>
+                        <li class="promotion"><a href="#">Promotion</a></li>
+                    </ul>
+                    <div class="close">Close Filters</div>
+                </div>
+
+                <div class="addresses">
+                    <div class="total-address"></div>
+                    <div class="addresses-container">
+                        <div class="address">
+                            <div class="pin">
+                                <div class="pin-icon">
+                                    <span>1</span>
+                                </div>
+                                <p>Open until 10pm</p>
+                            </div>
+                            <div class="address-info">
+                                <h2>The Shop</h2>
+                                <p>310 N Main St, St John, KS 67576, United States</p>
+                                <p class="tel"><a href="tel:(620) 318-1198">(620) 318-1198</a></p>
+                                <a href="#" class="dir-link">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="pin">
+                                <div class="pin-icon">
+                                    <span>2</span>
+                                </div>
+                                <p>Open until 10pm</p>
+                            </div>
+                            <div class="address-info">
+                                <h2>The Shop</h2>
+                                <p>310 N Main St, St John, KS 67576, United States</p>
+                                <p class="tel"><a href="tel:(620) 318-1198">(620) 318-1198</a></p>
+                                <a href="#" class="dir-link">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="pin">
+                                <div class="pin-icon">
+                                    <span>3</span>
+                                </div>
+                                <p>Open until 10pm</p>
+                            </div>
+                            <div class="address-info">
+                                <h2>The Shop</h2>
+                                <p>310 N Main St, St John, KS 67576, United States</p>
+                                <p class="tel"><a href="tel:(620) 318-1198">(620) 318-1198</a></p>
+                                <a href="#" class="dir-link">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="pin">
+                                <div class="pin-icon">
+                                    <span>4</span>
+                                </div>
+                                <p>Open until 10pm</p>
+                            </div>
+                            <div class="address-info">
+                                <h2>The Shop</h2>
+                                <p>310 N Main St, St John, KS 67576, United States</p>
+                                <p class="tel"><a href="tel:(620) 318-1198">(620) 318-1198</a></p>
+                                <a href="#" class="dir-link">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="pin">
+                                <div class="pin-icon">
+                                    <span>5</span>
+                                </div>
+                                <p>Open until 10pm</p>
+                            </div>
+                            <div class="address-info">
+                                <h2>The Shop</h2>
+                                <p>310 N Main St, St John, KS 67576, United States</p>
+                                <p class="tel"><a href="tel:(620) 318-1198">(620) 318-1198</a></p>
+                                <a href="#" class="dir-link">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="pin">
+                                <div class="pin-icon">
+                                    <span>6</span>
+                                </div>
+                                <p>Open until 10pm</p>
+                            </div>
+                            <div class="address-info">
+                                <h2>The Shop</h2>
+                                <p>310 N Main St, St John, KS 67576, United States</p>
+                                <p class="tel"><a href="tel:(620) 318-1198">(620) 318-1198</a></p>
+                                <a href="#" class="dir-link">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="pin">
+                                <div class="pin-icon">
+                                    <span>7</span>
+                                </div>
+                                <p>Open until 10pm</p>
+                            </div>
+                            <div class="address-info">
+                                <h2>The Shop</h2>
+                                <p>310 N Main St, St John, KS 67576, United States</p>
+                                <p class="tel"><a href="tel:(620) 318-1198">(620) 318-1198</a></p>
+                                <a href="#" class="dir-link">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="pin">
+                                <div class="pin-icon">
+                                    <span>8</span>
+                                </div>
+                                <p>Open until 10pm</p>
+                            </div>
+                            <div class="address-info">
+                                <h2>The Shop</h2>
+                                <p>310 N Main St, St John, KS 67576, United States</p>
+                                <p class="tel"><a href="tel:(620) 318-1198">(620) 318-1198</a></p>
+                                <a href="#" class="dir-link">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="pin">
+                                <div class="pin-icon">
+                                    <span>9</span>
+                                </div>
+                                <p>Open until 10pm</p>
+                            </div>
+                            <div class="address-info">
+                                <h2>The Shop</h2>
+                                <p>310 N Main St, St John, KS 67576, United States</p>
+                                <p class="tel"><a href="tel:(620) 318-1198">(620) 318-1198</a></p>
+                                <a href="#" class="dir-link">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="pin">
+                                <div class="pin-icon">
+                                    <span>10</span>
+                                </div>
+                                <p>Open until 10pm</p>
+                            </div>
+                            <div class="address-info">
+                                <h2>The Shop</h2>
+                                <p>310 N Main St, St John, KS 67576, United States</p>
+                                <p class="tel"><a href="tel:(620) 318-1198">(620) 318-1198</a></p>
+                                <a href="#" class="dir-link">Get Directions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="map-content">
+                <img src="images/map.png" alt="The Map" width="1712" height="830" usemap="#cebu-map"/>
+
+                <map name="cebu-map">
+                    <area class="areapin" shape="circle" coords="599,117,40" alt="Computer">
+                    <area class="areapin" shape="circle" coords="837,139,40" alt="Computer">
+                    <area class="areapin" shape="circle" coords="1184,431,40" alt="Computer">
+                    <area class="areapin" shape="circle" coords="839,715,40" alt="Computer">
+                    <area class="areapin" shape="circle" coords="512,435,40" alt="Computer">
+                    <area class="areapin" shape="circle" coords="1380,378,40" alt="Computer">
+                    <area class="areapin" shape="circle" coords="1384,613,40" alt="Computer">
+                    <area class="areapin" shape="circle" coords="1593,686,40" alt="Computer">
+                    <area class="areapin" shape="circle" coords="1112,98,40" alt="Computer">
+                    <area class="areapin" shape="circle" coords="500,635,40" alt="Computer">
+                </map>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
